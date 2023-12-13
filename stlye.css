@@ -1,0 +1,49 @@
+.marker_top {
+    background-color: darkgreen;
+    height: 50px;
+    text-align: right;
+}
+
+.underline {
+    background-color: orange;
+    height: 10px;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: brown;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+h3 {
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.contact {
+    background-color: #c0aca1;
+    height: 200px;
+}
+
+.marker_bottom {
+    display: flex;
+    background-color: darkgreen;
+    height: 50px;
+    justify-content: center;
+}
