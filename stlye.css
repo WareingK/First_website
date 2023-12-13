@@ -1,3 +1,8 @@
+html * {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    !important
+}
+
 .marker_top {
     background-color: darkgreen;
     height: 50px;
@@ -16,6 +21,7 @@ ul {
 
 ul li {
     margin: 10px;
+    color: white;
 }
 
 h1 {
@@ -36,9 +42,38 @@ h3 {
     margin-right: 30%;
 }
 
+.info {
+    margin: 20px;
+    font-size: 30px;
+}
+
 .contact {
     background-color: #c0aca1;
+    border-width: 5px;
+    border-style: solid;
+    border-color: orange;
     height: 200px;
+}
+
+.Email {
+    border-color: orange;
+    border-style: solid;
+    border-radius: 25px;
+    border-width: 5px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.name {
+    display: inline-block;
+    text-align: center;
+}
+
+.submit {
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .marker_bottom {
